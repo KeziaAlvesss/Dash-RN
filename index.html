@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Acompanhamento Comercial – Filial RN (51)</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#ffffff;--card:#fff;--tx:#293042;--mu:#7c8496;--bl:#3457d5;--ln:#edf0f6;--g:#1aa64b;--o:#e79a1a;--r:#e0505f;--sb:#4a6cf0;--sbtx:#eef1ff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;display:flex;min-height:100%}
+aside{width:220px;background:var(--sb);color:var(--sbtx);padding:20px 14px;flex:none;display:flex;flex-direction:column}aside .lg{margin-bottom:18px}aside .lg img{max-width:100%;display:block;background:#fff;border-radius:8px;padding:8px}
+aside hr{border:0;border-top:1px solid #ffffff3d;margin:8px 0 14px}
+.nv{display:flex;gap:10px;align-items:center;width:100%;background:none;border:0;color:var(--sbtx);font:inherit;font-size:16px;padding:10px;border-radius:6px;cursor:pointer;text-align:left}.nv.on{background:#ffffff2b;font-weight:600}
+aside h4{margin:26px 0 8px;font-weight:400;font-size:17px;color:var(--sbtx);border-bottom:1px solid #ffffff3d;padding-bottom:6px}
+.ln{display:block;width:100%;margin-bottom:8px;background:#ffffff14;border:1px solid #ffffff40;border-radius:6px;color:var(--sbtx);font:inherit;font-size:13px;padding:9px 6px;cursor:pointer}.ln.on{background:#fff;color:var(--sb);font-weight:700;border-color:#fff}
+.upbox{margin-top:auto;padding-top:16px}.upbtn{display:block;width:100%;text-align:center;background:#ffffff20;border:1px dashed #ffffff60;border-radius:6px;color:var(--sbtx);font:inherit;font-size:13px;padding:10px 6px;cursor:pointer}.upbtn:hover{background:#ffffff30}
+.upst{font-size:11px;color:#ffffffb0;margin-top:6px;line-height:1.4}
+main{flex:1;min-width:0;padding:16px 20px}h1{font-weight:300;font-size:28px;margin:0;color:var(--bl)}h1 b{font-weight:700}.sub{color:var(--mu);font-size:14px}
+.top{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.dt{display:flex;gap:6px;align-items:center;color:var(--mu);font-size:13px}.dt input{font:inherit;padding:6px 8px;border:1px solid var(--ln);border-radius:6px;background:var(--card);color:var(--tx)}
+.card{background:var(--card);border-radius:14px;padding:16px;box-shadow:0 1px 2px #0000000a;border:1px solid var(--ln);margin-bottom:12px}
+.k{display:grid;grid-template-columns:repeat(4,1fr);gap:16px 12px}.k div{border-left:3px solid var(--c);padding-left:10px}.k small{font-size:14px;font-weight:600}
+.k p{margin:2px 0 0;font-size:22px;font-weight:600;color:var(--bl);font-variant-numeric:tabular-nums}
+.sc{overflow-x:auto}table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums;min-width:520px}
+th{color:var(--mu);font-weight:500;padding:10px 8px;border-bottom:2px solid var(--ln);text-align:right}td{padding:9px 8px;border-bottom:1px solid var(--ln);text-align:right}
+th:first-child,td:first-child{text-align:left;font-weight:600}tfoot td{font-weight:700;border-top:2px solid var(--ln)}
+.tb{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.tb button{background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:8px;padding:10px 16px;font:inherit;font-size:14px;cursor:pointer}.tb button.on{background:var(--bl);color:var(--card);border-color:var(--bl)}
+.bars{display:flex;align-items:flex-end;gap:4px;height:90px}.bars i{flex:1;background:var(--bl);opacity:.85;border-radius:3px 3px 0 0;min-height:2px}
+.bar{display:block;height:8px;background:var(--bl);border-radius:4px;opacity:.8}.ft{color:var(--mu);font-size:12px;line-height:1.5}h2{font-size:14px;margin:0 0 8px;color:var(--mu);font-weight:600}
+@media(max-width:800px){body{flex-direction:column}aside{width:100%;padding:12px}aside .lg{display:none}aside hr{display:none}aside h4{margin:12px 0 6px}.nv{display:inline-flex;width:auto;font-size:14px}.ln{display:inline-block;width:auto;padding:8px 12px}main{padding:12px}.upbox{margin-top:12px}}
+@media(max-width:520px){.k{grid-template-columns:repeat(2,1fr)}}
+</style></head><body>
+<aside><div class="lg"><img src="logo.png" alt="BonSono"></div><hr><div id="nav"></div><h4>Linha</h4><div id="li"></div>
+<div class="upbox"><label class="upbtn" for="upfile">⭱ Atualizar base de dados</label>
+<input type="file" id="upfile" accept=".xlsx" multiple style="display:none">
+<div class="upst" id="upst">Selecione Vendas_Set.xlsx (e Tabelas_Itens_Vendidos.xlsx, opcional) para atualizar.</div></div>
+</aside>
+<main><div class="top"><div><h1>Acompanhamento <b>Comercial</b></h1><div class="sub" id="sb"></div></div>
+<div class="dt"><input type="date" id="d1" value="2026-09-01" min="2026-09-01" max="2026-09-30"> até <input type="date" id="d2" value="2026-09-28" min="2026-09-01" max="2026-09-30"></div></div>
+<div id="pg"></div><p class="ft" id="n"></p></main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body></html>
